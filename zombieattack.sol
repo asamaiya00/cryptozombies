@@ -3,7 +3,6 @@ pragma solidity >=0.5.0 <0.6.0;
 import "./zombiehelper.sol";
 
 contract ZombieAttack is ZombieHelper {
-  // Start here
   uint randNonce = 0;
 
   function randMod(uint _modulus) internal returns (uint) {
